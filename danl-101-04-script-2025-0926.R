@@ -63,7 +63,7 @@ sum_diff_sq <- sum(diff_sq)
 var_x <- sum_diff_sq / (length(x) - 1)
 
 
-# var_x <- sum( (x - mean(x))^2 ) / (length(x) - 1)
+# var_x <- sum( ( x - mean(x) )^2 ) / ( length(x) - 1 )
 var(x)
 
 sd_x <- sqrt(var_x)
