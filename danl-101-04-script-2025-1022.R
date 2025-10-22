@@ -33,7 +33,7 @@ xy <- x |>
 xyy <- x |> 
   left_join(yy)
 
-# renaming one key variable, so they have the same name for the key
+# We can rename one key variable, so they have the same name for the key
 
 
 
